@@ -1,0 +1,19 @@
+@import "componentes/globales.scss";
+@import "componentes/perfiles.scss";
+@import "componentes/estadisticas.scss";
+@import "componentes/ubicaciones.scss";
+
+/*
+npm install -g sass
+
+Dentro de carpeta ejecutar (npm init) para iniciar los paquetes
+
+npm install sass - instalar sass
+"sass": "sass" - agregar en package.json que se genero
+npm run sass input.scss output.css - agregar el archivo a compilar
+sass --watch styles.scss styles.css - Ver cambios compilados en tiempo real
+
+"sass:watch": "sass --watch styles.scss styles.css" - agregar a package.json "scripts"
+
+npm run sass:watch - ejecutar para ver cambios en tiempo real
+*/
